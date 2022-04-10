@@ -5,7 +5,7 @@ Lottery random numbers generators with algorithm rules
 1. Download the file ends with "-win.exe" with the highest version number
 2. Place at a directory which has permission to run and program to write file
 3. Rename the file to SGPool.exe
-4. 4. Invoke the program using Command Prompt
+4. Invoke the program using Command Prompt
 
 ## Linux
 1. Download the file ends with "-linux.gz" with the highest version number
