@@ -41,7 +41,7 @@ This switch need an input file that contains last [MaxDraw] lottery result, whic
 ### -ONLYODDEVEN [Sequence]
 It will generate number that has the OddEven of the OddEven [Sequence]
 
-### -ExcludeDraw [MaxDraw] [AmountTolerate]
+### -EXCLUDEDRAW [MaxDraw] [AmountTolerate]
 It will exclude numbers that is drawn from the last [MaxDraw] draws, if however it contains only maximum of [AmountTolerate] same numbers from those draws, the set of number will still be generated, the number will not be generated when it exceed the tolerable amount.
   
 For Example last 3 draws are "1,2,3,4,5,6", "7,8,9,10,11,12", "13,14,15,16,17,18" then if the [AmountTolerate] is 0, it will generate only number starts with 19-49 permutation, if it is for example 2, it will allow 2 same balls from those balls.
