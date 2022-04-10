@@ -8,9 +8,9 @@ Lottery random numbers generators with algorithm rules
 
 # Linux
 1. Download the file ends with "-linux.gz"
-2. Extract the file into a file without ending with ".gz"
+2. Extract the file into another file without ending with ".gz"
 3. Chmod the file so it has read, write and execute permission
 
 # macOS
-1. Download the file ends with "-macos.gz"
-2. Extract the file into a file without ending with ".gz"
+1. Download the file ends with "-osx.gz"
+2. Extract the file into another file without ending with ".gz"
