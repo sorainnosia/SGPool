@@ -2,7 +2,7 @@
 Lottery random numbers generators with algorithm rules
 
 ## Requirement
-1. After having `SGPool` file from above download
+1. After having `SGPool` file downloaded from bin folder
 2. You will need the latest toto result data by running the program using command line with below switches
 ```
 SGPool toto download TotoResult.csv
