@@ -66,5 +66,8 @@ For Example [Sequence] is "1,49", so the set generated will not contain ball 1 a
 ### -FILTERTEN [Number]
 Numbers in range of 1-49 start with 0-9, 11-19, 20-29, 30-39, 40-49 which means there are 5 maximum division, if FilterTen is pass with 5, number in the group of all division will be shown and will not show set of numbers that skip division range for example 10-19. FilterTen works with minimum if it is pass with 3, minimum 3 of the division will be shown. 
 
+### -ONLYTEN [Number]
+Same with FILTERTEN but it will only show numbers that has exact [Number] of division.
+
 ### -SUM [Min] [Max]
 Only show numbers which sum to have value in between [Min] and [Max]
