@@ -19,7 +19,7 @@ Lottery random numbers generators with algorithm rules
 3. Rename the file to SGPool
 
 ## Requirement
-1. After having SGPool file from above download
+1. After having `SGPool` file from above download
 2. You will need the latest toto result data by running the program using command line with below switches
 ```
 SGPool toto download TotoResult.csv
