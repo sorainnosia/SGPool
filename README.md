@@ -51,7 +51,7 @@ This switch need an input file that contains last [MaxDraw] lottery result, whic
 ### -CONTAINOR [Sequence] [MinAmount]
 ContainOr will generate set of numbers from [Sequence] of balls and show sets that only has [MinAmount] of those balls.
   
-For Example [Sequence] is "1,2,3,4,5,6,7,8,9,10,11,12" and [MinAmount] is 5. So it will Generate number "1,2,3,4,5,X" or "2,3,4,5,6,X" where the remaining X is any numbers.
+For Example [Sequence] is "1,2,3,4,5,6,7,8,9,10,11,12" and [MinAmount] is 5. So it will Generate number "1,2,3,4,5,X" or "2,3,4,5,6,X" etc where the remaining X is any numbers.
   
 ### -CONTAINAND [Sequence]
 ContainAnd will generate set of numbers that must contains all the numbers in the [Sequence].
