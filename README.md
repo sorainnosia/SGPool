@@ -25,6 +25,8 @@ This switch must be the first switch to be pass to the program following by algo
 
 ### -MOD10 [MaxDraw]
 Mod10 means that it will sum up a set of number, for example :1,2,3,4,5,6 which sum to 21 and reduce it to single digit, which means 2+1=3 which is single digit, so mod10 of that set of number is 3. This switch is used with [MaxDraw] for example 3, which means it will exclude Mod10 from last 3 draws, for example last 3 draws result in Mod10 of 2,5, and 7, then the number generated with this `-MOD10 3` switch will get only set of number that generates to Mod10 of 1,3,4,6,8, or 9.
+
+This switch need an input file that contains last [MaxDraw] lottery result, which uses ```-INPUT [Filename]``` switch such as ```-INPUT TotoResult.csv```
   
 ### -ONLYMOD [Number]
 ONLYMOD means that it will only generate set of numbers which sum up to Mod10 of [Number].
@@ -34,6 +36,8 @@ OddEven means that based on 6 numbers generated it will sort the number followed
   
 Then pass with [MaxDraw] 3, it will exclude set of numbers that generated to the OddEven of the last 3 draws.
 
+This switch need an input file that contains last [MaxDraw] lottery result, which uses ```-INPUT [Filename]``` switch such as ```-INPUT TotoResult.csv```
+
 ### -ONLYODDEVEN [Sequence]
 It will generate number that has the OddEven of the OddEven [Sequence]
 
@@ -41,6 +45,8 @@ It will generate number that has the OddEven of the OddEven [Sequence]
 It will exclude numbers that is drawn from the last [MaxDraw] draws, if however it contains [AmountTolerate] same numbers from those draws, the set of number will be generated, the number will not be generated when it exceed the tolerable amount.
   
 For Example last 3 draws are "1,2,3,4,5,6", "7,8,9,10,11,12", "13,14,15,16,17,18" then if the [AmountTolerate] is 0, it will generate only number starts with 19-49 permutation, if it is for example 2, it will allow 2 same balls from those balls.
+
+This switch need an input file that contains last [MaxDraw] lottery result, which uses ```-INPUT [Filename]``` switch such as ```-INPUT TotoResult.csv```
 
 ### -CONTAINOR [Sequence] [MinAmount]
 ContainOr will generate set of numbers from [Sequence] of balls and show sets that only has [MinAmount] of those balls.
