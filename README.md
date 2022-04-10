@@ -18,7 +18,7 @@ Lottery random numbers generators with algorithm rules
 2. Extract the file into another file without ending with ".gz"
 3. Rename the file to SGPool
 
-## Usage
+## Requirement
 1. After having SGPool file from above download
 2. You will need the latest toto result data by running the program using command line with below switches
 ```
