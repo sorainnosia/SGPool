@@ -20,8 +20,8 @@ Lottery random numbers generators with algorithm rules
 
 ## Usage
 1. After having SGPool file from above download
-2. You will need the latest toto result data by running
+2. You will need the latest toto result data by running the program using command line with below switches
 ```
 SGPool toto download TotoResult.csv
 ```
-3. The process takes a lot of time and requires internet connection, after it finishes the file TotoResult.csv will exist
+3. The process takes a lot of time which requires internet connection, console will not print any information during the time, after it finishes the file TotoResult.csv will exist which will be used to generate lottery numbers
