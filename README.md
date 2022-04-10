@@ -3,7 +3,7 @@ Lottery random numbers generators with algorithm rules
 
 ## Windows
 1. Download the file ends with "-win.exe" with the highest version number
-2. Place at a directory which has permission to run and program to write file
+2. Place at a directory which has permission to run program and to write file
 3. Rename the file to SGPool.exe
 4. Invoke the program using Command Prompt
 
