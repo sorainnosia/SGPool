@@ -22,7 +22,7 @@ SGPool toto download TotoResult.csv
 ## Usage
 ```
 SGPool toto math [algorithm switches...] [ending switches...]
-
+```
 For usage of the program starts running it in Console (Command Prompt) with `SGPool toto math` switches, the switches then accept Algorithm Switches such as `-ALLCOMB` to generate all possible random numbers filter with other algorithm switches, then it will follow with Ending Switches 
 
 ### Ending Switches
