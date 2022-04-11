@@ -16,7 +16,7 @@ SGPool toto math -ALLCOMB -SUM 140 200 -CONTAINOR 2,3,5,8,9,10,17,20,24,32,39,41
 ```
 SGPool toto download TotoResult.csv
 ```
-3. The process takes a lot of time which requires internet connection, console will not print any information during the time, after it finishes the file TotoResult.csv will exist which will be used to generate lottery numbers
+3. The process takes a lot of time which requires internet connection, console will not print any information during the time, after it finishes the file `TotoResult.csv` will exist which will be used to generate lottery numbers
 4. When the software rerun the same statement with same filename, the file will be appended with missing result and will not redownload previous downloaded result
 
 ## Usage
