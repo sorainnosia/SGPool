@@ -20,7 +20,15 @@ SGPool toto download TotoResult.csv
 4. When the software rerun the same statement with same filename, the file will be appended with missing result and will not redownload previous downloaded result
 
 ## Usage
-For usage of the program starts running it in Console (Command Prompt) with `SGPool toto math` switches, the switches then accept Algorithm Switches such as `-ALLCOMB` to generate all possible random numbers filter with other algorithm switches, then it will follow with Ending Switches such as `-INPUT [Filename]` for accepting input file containing draw history which is required by some algorithms, `-OUTPUT [DrawNo].txt` switch is used to output to file beside the console (optional), and the final Ending Switch is `-WITHOUTONE` which is used to filter out ball 1 from the numbers generated (optional).
+```
+SGPool toto math [algorithm switches...] [ending switches...]
+
+For usage of the program starts running it in Console (Command Prompt) with `SGPool toto math` switches, the switches then accept Algorithm Switches such as `-ALLCOMB` to generate all possible random numbers filter with other algorithm switches, then it will follow with Ending Switches 
+
+### Ending Switches
+`-INPUT [Filename]` for accepting input file containing draw history which is required by some algorithms
+`-OUTPUT [DrawNo].txt` switch is used to output to file beside the console (optional)
+`-WITHOUTONE` which is used to filter out ball 1 from the numbers generated (optional).
 
 ## Algorithm Switches
 
