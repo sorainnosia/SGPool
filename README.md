@@ -20,7 +20,7 @@ SGPool toto download TotoResult.csv
 4. When the software rerun the same statement with same filename, the file will be appended with missing result and will not redownload previous downloaded result
 
 ## Usage
-### -ALLCOMB
+### `-ALLCOMB`
 This switch must be the first switch to be pass to the program following by algorithm rules, this switch means that the program will generate all possible 6 permutations of number between 1-49.
 
 ### -MOD10 [MaxDraw]
